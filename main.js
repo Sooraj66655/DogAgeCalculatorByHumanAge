@@ -58,29 +58,6 @@ function CalculateDogAge() {
 
 }
 
-/************************************Conver Human Age By Dog age*****************************/
-/*function CalculateHumanAge(){
-
-	var Dogage = document.getElementById("DogAge").value;
-	var dogname = document.getElementById("dogname").value;
-
-	var earlyAge = 2;
-	earlyAge *= 10.5;
-	var RemainDogAge = Dogage - 2;
-	RemainDogAge *= 4;
-	var HumanageInDogYears = earlyAge + RemainDogAge;
-	alert(HumanageInDogYears);
-	var Year = parseInt(HumanageDogYears);
-    var month = HumanageDogYears - Year;
-	month *= 12;
-	var forday =parseInt(month);
-	var day = forday - month;
-    alert(day);
-     document.getElementById("message").style.display = "block";
-     document.getElementById("sms").innerHTML =
-     "My name is " + dogname +  " I am " + Dogage + " years old in human years, which is " + Year + " years " +month+ " months " +day+ " day old in dog years.";
 
 
 
-}
-*/
