@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <title>
+            Dog Age Calculate
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div>
+            <select id="select" onchange="SelectOption();">
+                <option selected="selected" disabled="disabled">-Select-</option>
+                <option value="HumantoDog">Convert Human Age to Dog age...</option>
+                <option value="DogtoHuman">Convert Dog age to Human age...</option>
+            </select>
+        </div>
+        <header class="mainDiv">
+            <h3>
+                <span style='font-size:60px; float: left;'>&#129489;</span>
+                <span style='font-size:60px;'>&#128073;</span>
+                <span style='font-size:60px; float: right;'>&#128021;</span>
+            </h3>
+            <input type="text" id="HumanAge" class="display" placeholder="Enter Human age..." required="required">
+            <input type="text" id="name" placeholder="Enter Human Name..." required="required">
+            <button onclick="CalculateDogAge();"><span>&#129492;</span>Calculate<span>&#128054;</span></button>
+        </header>
+        <button class="direction" id="res">Result Will We Show Below.....&#128071;</button>
+        <!-- <section class="SecondDiv">
+<h3><span style='font-size:60px; float: left;'>&#128021;</span><span style='font-size:60px;'>&#128073;</span><span style='font-size:60px; float: right;'>&#129489;</span></h3>
+<input type="text" id="DogAge" class="display" placeholder="Enter Dog age...">
+<input type="text" id="dogname" placeholder="Enter Your Dog Name...">
+<button onclick="CalculateHumanAge();"><span>&#128054;</span>Calculate<span>&#129492;</span></button>
+</section> -->
+        <section id="message">
+            <p id="sms">
+            </p>
+        </section>
+    </body>
+    <script type="text/javascript" src="main.js"></script>
+</html>

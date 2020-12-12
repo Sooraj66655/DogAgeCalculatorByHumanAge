@@ -1,0 +1,83 @@
+body{
+	background-image: url("Dog.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+}
+header{
+	text-align: center;
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	height: auto;
+	padding-bottom: 4%;
+}
+.display{
+	width: 98%;height: 6vh; margin-bottom: 5vh;
+	background: transparent;
+	border: none;
+	background-color: #A4AF5C !important;
+	height: 60px;
+	box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+	font-size: 30px;
+	font-weight: bold;
+	outline: none;
+	text-shadow: 1px 1px #B70928;
+}
+#name{
+	width: 98%;height: 6vh; margin-bottom: 5vh;
+	background: transparent;
+	border: none;
+	background-color: #A4AF5C !important;
+	height: 60px;
+	box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+	font-size: 30px;
+	font-weight: bold;
+	outline: none;
+	text-shadow: 1px 1px #B70928;
+}
+button{
+	width: 50%;
+	border-radius: 25px;
+	height: 7vh;
+	background-color: #990000;
+	color: white;
+	font-size: 20px; 
+	font-weight: bold;
+	border: none;
+	outline: none;
+}
+.direction{
+	width: 50%;
+	border-radius: 25px;
+	height: 7vh;
+	background-color: #990000;
+	color: white;
+	font-size: 20px; 
+	font-weight: bold;
+	border: none;
+	outline: none;
+	margin-left: 25%;
+}
+.SecondDiv{
+	float: right;
+	text-align: center;
+	width: 40%;
+	height: auto;
+	padding-bottom: 10%;
+}
+#select{
+	width: 50%;height: 10vh;text-align: center;
+	margin-left: 25%;
+}
+#sms{
+	width: 90%;
+	color: #9B0B04;
+	font-size: 70px;
+	background-blend-mode: overlay;
+	background-color: black !important;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
