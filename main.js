@@ -21,7 +21,7 @@ function CalculateDogAge() {
 			var day = month - formonth;
 			day *= 30;
 			day = Math.ceil(day);
-			alert(day);
+			
 
 			var x = document.getElementsByTagName("BODY")[0];
 			x.style.backgroundImage = "url(d.gif)";
