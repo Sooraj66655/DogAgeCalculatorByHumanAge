@@ -48,6 +48,15 @@ button{
 	border: none;
 	outline: none;
 }
+.head{
+	width: 99%;
+	height: auto;
+	padding: 0.5%;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	background-color: #000;
+}
 .direction{
 	width: 50%;
 	border-radius: 25px;
